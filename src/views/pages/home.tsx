@@ -28,26 +28,25 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="px-6 max-w-6xl mx-auto">
-
-                <div className="grid gap-8 md:grid-cols-3">
-                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
-                        <h3 className="text-xl font-semibold mb-3">📘 Structured Lessons</h3>
-                        <p className="text-gray-400">
+            <section className="px-4 sm:px-6 lg:px-8 py-8 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                        <h3 className="text-lg sm:text-xl md:text-xl font-semibold mb-3">📘 Structured Lessons</h3>
+                        <p className="text-gray-400 text-sm sm:text-base md:text-base">
                             Step-by-step explanations aligned with mathematics syllabus for Grades 6–11.
                         </p>
                     </div>
 
-                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
-                        <h3 className="text-xl font-semibold mb-3">🧠 Exam Preparation</h3>
-                        <p className="text-gray-400">
+                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                        <h3 className="text-lg sm:text-xl md:text-xl font-semibold mb-3">🧠 Exam Preparation</h3>
+                        <p className="text-gray-400 text-sm sm:text-base md:text-base">
                             Past paper discussions, model questions, and smart techniques to score higher in exams.
                         </p>
                     </div>
 
-                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
-                        <h3 className="text-xl font-semibold mb-3">🚀 Student Progress</h3>
-                        <p className="text-gray-400">
+                    <div className="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                        <h3 className="text-lg sm:text-xl md:text-xl font-semibold mb-3">🚀 Student Progress</h3>
+                        <p className="text-gray-400 text-sm sm:text-base md:text-base">
                             Continuous guidance to improve confidence, accuracy, and mathematical thinking skills.
                         </p>
                     </div>

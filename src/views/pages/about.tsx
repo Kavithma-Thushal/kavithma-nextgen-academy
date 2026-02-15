@@ -2,24 +2,31 @@ export default function About() {
     return (
         <div className="min-h-screen bg-gray-950 text-gray-100">
 
-            <section
-                className="text-center px-4 sm:px-6 lg:px-8 py-16 sm:py-20 bg-gradient-to-b from-gray-900 to-gray-950">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-10">
+            <section className="text-center px-4 sm:px-6 lg:px-8 py-16 sm:py-20 bg-gradient-to-b from-gray-900 to-gray-950">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-8 sm:mb-10">
                     About Us
                 </h1>
 
-                <p className="max-w-6xl mx-auto text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
+                <p className="max-w-4xl sm:max-w-5xl md:max-w-6xl mx-auto text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg mb-6">
                     At Kavithma NextGen Academy, we believe every student can excel in mathematics with the right
                     guidance and practice. Our mission is to create a supportive, interactive, and modern learning
                     environment where students understand concepts clearly, develop strong problem-solving skills, and
                     achieve their academic goals. We focus on building both confidence and competence, preparing
                     learners not just for exams, but for lifelong success in mathematics and beyond.
                 </p>
+
+                <section
+                    className="max-w-md sm:max-w-lg md:max-w-4xl mx-auto mt-6 sm:mt-8 p-4 sm:p-6 md:p-8 bg-gray-900 border-l-4 border-blue-500 rounded-lg">
+                    <p className="text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg font-bold">
+                        ✨ Kavithma Thushal (tutor) is a Software Engineer holding an HND in Software Engineering from
+                        IJSE (Institute of Java & Software Engineering)
+                    </p>
+                </section>
             </section>
 
-            <section className="px-4 sm:px-6 lg:px-8 py-12 max-w-6xl mx-auto">
+            <section className="px-4 sm:px-6 lg:px-8 py-10 max-w-6xl mx-auto">
                 <div className="grid gap-6 sm:gap-8 md:grid-cols-3">
-                    <div className="bg-gray-900 p-5 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                    <div className="bg-gray-900 p-4 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
                         <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">🎯 Our Vision</h3>
                         <p className="text-gray-400 text-sm sm:text-base">
                             To nurture a generation of confident and skilled mathematicians who enjoy learning and excel
@@ -27,7 +34,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div className="bg-gray-900 p-5 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                    <div className="bg-gray-900 p-4 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
                         <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">👨‍🏫 Our Teaching</h3>
                         <p className="text-gray-400 text-sm sm:text-base">
                             Structured lessons, interactive problem-solving, and exam-focused guidance designed for
@@ -35,7 +42,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div className="bg-gray-900 p-5 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+                    <div className="bg-gray-900 p-4 sm:p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
                         <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">🚀 Student Growth</h3>
                         <p className="text-gray-400 text-sm sm:text-base">
                             Personalized support to track progress, build confidence, and strengthen mathematical
@@ -46,5 +53,5 @@ export default function About() {
             </section>
 
         </div>
-    )
+    );
 }
