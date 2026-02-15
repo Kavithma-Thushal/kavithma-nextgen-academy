@@ -1,7 +1,9 @@
+import Home from "./views/pages/home.tsx";
+
 export default function App() {
     return (
         <div>
-            <h1 className="text-red-500">🎓 Kavithma NextGen Academy 🎓</h1>
+            <Home/>
         </div>
     )
 }
