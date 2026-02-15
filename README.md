@@ -3,16 +3,16 @@
 ## Mathematics | Grade 6 - 11
 
 Welcome to **Kavithma NextGen Academy**, a modern and user-friendly Mathematics tuition website. This project represents
-the official website of **Kavithma NextGen Academy**, providing Mathematics education for students from Grade 6 to Grade
-11. The platform is designed to deliver a clean, engaging, and user-friendly learning experience. The website showcases
-academy information, mathematics courses, class schedules, and contact features while demonstrating how modern web
-technologies can be used to build a professional educational platform.
+the official website of **Kavithma NextGen Academy**, providing Mathematics education for students from Grade 6 to
+Grade11. The platform is designed to deliver a clean, engaging, and user-friendly learning experience. The website
+showcases academy information, mathematics courses, class schedules, and contact features while demonstrating how modern
+web technologies can be used to build a professional educational platform.
 
 ## 🛠️ Technologies
 
 ✅ React<br/>
 ✅ Vite<br/>
-✅ TS<br/>
+✅ Typescript<br/>
 ✅ Tailwind CSS<br/>
 
 ## 🚀 Features
