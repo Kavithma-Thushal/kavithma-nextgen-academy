@@ -18,7 +18,7 @@ export default function Home() {
                     student.
                 </p>
 
-                <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="px-8 py-3 border border-gray-600 rounded-lg hover:bg-gray-800 transition">
                         Learn More
                     </button>
