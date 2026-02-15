@@ -35,7 +35,7 @@ export default function Classes() {
     return (
         <div className="min-h-screen bg-gray-950 text-gray-100">
 
-            <section className="text-center px-4 py-16 bg-gradient-to-b from-gray-900 to-gray-950">
+            <section className="text-center px-4 pt-20 pb-10 bg-gradient-to-b from-gray-900 to-gray-950">
                 <h1 className="text-4xl md:text-6xl font-extrabold">
                     Available Classes
                 </h1>
