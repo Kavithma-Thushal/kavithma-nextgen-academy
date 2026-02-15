@@ -57,7 +57,7 @@ export default function Footer() {
                 © 2026 Kavithma NextGen Academy. All rights reserved.
             </div>
 
-            <a href="https://wa.me/94711234567" target="_blank"
+            <a href="https://wa.me/774519007" target="_blank"
                className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg hover:scale-110 transition">
                 <FaWhatsapp className="text-white text-xl"/>
             </a>
